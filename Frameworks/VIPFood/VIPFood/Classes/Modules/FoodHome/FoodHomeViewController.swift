@@ -20,8 +20,12 @@ class FoodHomeViewController: UIViewController {
     var wireframe: IFoodHomeWireframe?
 
     override func viewDidLoad() {
-        super.viewDidLoad()
+        super.viewDidLoad()        
         // do someting...
+    }
+    
+    @IBAction func didShowLogin(_ sender: Any) {
+        wireframe?.navigateToAuthLogin()
     }
 }
 

@@ -1,6 +1,0 @@
-framework module AppsRouter {
-  umbrella header "AppsRouter-umbrella.h"
-
-  export *
-  module * { export * }
-}

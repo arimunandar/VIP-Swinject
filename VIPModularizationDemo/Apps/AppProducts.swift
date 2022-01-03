@@ -14,6 +14,7 @@ public enum AppProducts {
     case AuthProducts
     case RideProducts
     case FoodProducts
+    case GeneralProducts
 
     public var productName: String {
         switch self {
@@ -23,6 +24,8 @@ public enum AppProducts {
             return "RideProducts"
         case .FoodProducts:
             return "FoodProducts"
+        case .GeneralProducts:
+            return "GeneralProducts"
         }
     }
 }

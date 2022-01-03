@@ -7,6 +7,7 @@
 
 import UIKit
 import AppsRouter
+import VIPAuthApi
 
 // MARK: - FoodHomeViewControllerDelegate
 
@@ -18,6 +19,7 @@ protocol FoodHomeViewControllerDelegate: AnyObject {
 
 protocol IFoodHomeWireframe {
     func presentView()
+    func navigateToAuthLogin()
 }
 
 // MARK: - FoodHomeWireframe
@@ -34,5 +36,9 @@ class FoodHomeWireframe: IFoodHomeWireframe {
     func presentView() {
         let view = appRouter.resolver.resolve(FoodHomeViewController.self, argument: appRouter)!
         appRouter.presentView(view: view)
+    }
+    
+    func navigateToAuthLogin() {
+        appRouter.presentModule(module: AuthProducts.LoginModule)
     }
 }

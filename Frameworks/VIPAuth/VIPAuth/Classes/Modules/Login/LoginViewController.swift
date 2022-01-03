@@ -23,6 +23,10 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
         // do someting...
     }
+    
+    @IBAction func didShowRegister(_ sender: Any) {
+        wireframe?.navigateToRegister()
+    }
 }
 
 // MARK: ILoginViewController

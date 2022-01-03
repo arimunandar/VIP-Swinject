@@ -7,6 +7,7 @@
 
 import UIKit
 import AppsRouter
+import VIPAuthApi
 
 // MARK: - LoginViewControllerDelegate
 
@@ -18,6 +19,7 @@ protocol LoginViewControllerDelegate: AnyObject {
 
 protocol ILoginWireframe {
     func presentView()
+    func navigateToRegister()
 }
 
 // MARK: - LoginWireframe
@@ -34,5 +36,9 @@ class LoginWireframe: ILoginWireframe {
     func presentView() {
         let view = appRouter.resolver.resolve(LoginViewController.self, argument: appRouter)!
         appRouter.presentView(view: view)
+    }
+    
+    func navigateToRegister() {
+        appRouter.presentModule(module: AuthProducts.RegisterModule)
     }
 }

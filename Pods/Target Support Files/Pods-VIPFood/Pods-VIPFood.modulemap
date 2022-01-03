@@ -1,6 +1,0 @@
-framework module Pods_VIPFood {
-  umbrella header "Pods-VIPFood-umbrella.h"
-
-  export *
-  module * { export * }
-}

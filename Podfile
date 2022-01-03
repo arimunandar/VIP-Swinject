@@ -56,3 +56,9 @@ target 'VIPAuthApi' do
     inherit! :search_paths
     project_pods
 end
+
+target 'General' do
+    project 'Frameworks/General/General'
+    inherit! :search_paths
+    project_pods
+end

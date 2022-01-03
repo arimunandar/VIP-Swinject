@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1FA0D51D90E22AE5849B37E4 /* Pods_VIPModularizationDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D1A0598E6D9AE3D8E2B5019 /* Pods_VIPModularizationDemo.framework */; };
+		70082E39278321EC001DD911 /* General.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70082E38278321EC001DD911 /* General.framework */; };
+		70082E3A278321EC001DD911 /* General.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 70082E38278321EC001DD911 /* General.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		70B897ED2781CACD0033E2B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B897EC2781CACD0033E2B6 /* AppDelegate.swift */; };
 		70B897F62781CACF0033E2B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70B897F52781CACF0033E2B6 /* Assets.xcassets */; };
 		70B897F92781CACF0033E2B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70B897F72781CACF0033E2B6 /* LaunchScreen.storyboard */; };
@@ -57,6 +59,7 @@
 			files = (
 				70B8990A2781CDB90033E2B6 /* VIPAuth.framework in Embed Frameworks */,
 				70B899122781CDB90033E2B6 /* VIPRide.framework in Embed Frameworks */,
+				70082E3A278321EC001DD911 /* General.framework in Embed Frameworks */,
 				70B899102781CDB90033E2B6 /* VIPFoodApi.framework in Embed Frameworks */,
 				70B899142781CDB90033E2B6 /* VIPRideApi.framework in Embed Frameworks */,
 				70B8990C2781CDB90033E2B6 /* VIPAuthApi.framework in Embed Frameworks */,
@@ -73,6 +76,7 @@
 		4C8EE315DD76979561A774D2 /* Pods-VIPModularizationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIPModularizationDemo.release.xcconfig"; path = "Target Support Files/Pods-VIPModularizationDemo/Pods-VIPModularizationDemo.release.xcconfig"; sourceTree = "<group>"; };
 		69BA5101ADC2DE259802E592 /* Pods-VIPModularizationDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIPModularizationDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-VIPModularizationDemoTests/Pods-VIPModularizationDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6BDE4D99BC2DFA5C8E56AEBF /* Pods_VIPModularizationDemo_VIPModularizationDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIPModularizationDemo_VIPModularizationDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70082E38278321EC001DD911 /* General.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = General.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70B897E92781CACD0033E2B6 /* VIPModularizationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPModularizationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70B897EC2781CACD0033E2B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70B897F52781CACF0033E2B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -104,6 +108,7 @@
 				70B899132781CDB90033E2B6 /* VIPRideApi.framework in Frameworks */,
 				70B8990F2781CDB90033E2B6 /* VIPFoodApi.framework in Frameworks */,
 				70B8990D2781CDB90033E2B6 /* VIPFood.framework in Frameworks */,
+				70082E39278321EC001DD911 /* General.framework in Frameworks */,
 				70B899112781CDB90033E2B6 /* VIPRide.framework in Frameworks */,
 				70B899092781CDB90033E2B6 /* VIPAuth.framework in Frameworks */,
 				70B8990B2781CDB90033E2B6 /* VIPAuthApi.framework in Frameworks */,
@@ -133,6 +138,7 @@
 		1706EED0276E76CBFD269CAC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				70082E38278321EC001DD911 /* General.framework */,
 				70B899032781CDB90033E2B6 /* VIPAuth.framework */,
 				70B899042781CDB90033E2B6 /* VIPAuthApi.framework */,
 				70B899052781CDB90033E2B6 /* VIPFood.framework */,

@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Frameworks/General/General.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:VIPModularizationDemo.xcodeproj">
    </FileRef>
    <FileRef

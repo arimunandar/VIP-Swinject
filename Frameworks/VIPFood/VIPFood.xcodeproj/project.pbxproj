@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70082E3E2783248B001DD911 /* VIPAuthApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70082E3D2783248B001DD911 /* VIPAuthApi.framework */; };
+		70082E3F2783248B001DD911 /* VIPAuthApi.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 70082E3D2783248B001DD911 /* VIPAuthApi.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		70B898732781CCBB0033E2B6 /* VIPFood.docc in Sources */ = {isa = PBXBuildFile; fileRef = 70B898722781CCBB0033E2B6 /* VIPFood.docc */; };
 		70B898792781CCBB0033E2B6 /* VIPFood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70B8986E2781CCBB0033E2B6 /* VIPFood.framework */; };
 		70B8987E2781CCBB0033E2B6 /* VIPFoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B8987D2781CCBB0033E2B6 /* VIPFoodTests.swift */; };
@@ -44,6 +46,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				70B898FC2781CD960033E2B6 /* VIPFoodApi.framework in Embed Frameworks */,
+				70082E3F2783248B001DD911 /* VIPAuthApi.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,6 +55,7 @@
 
 /* Begin PBXFileReference section */
 		542F637921AFD90DC6865219 /* Pods-VIPFood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIPFood.release.xcconfig"; path = "Target Support Files/Pods-VIPFood/Pods-VIPFood.release.xcconfig"; sourceTree = "<group>"; };
+		70082E3D2783248B001DD911 /* VIPAuthApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = VIPAuthApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70B8986E2781CCBB0033E2B6 /* VIPFood.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VIPFood.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70B898712781CCBB0033E2B6 /* VIPFood.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VIPFood.h; sourceTree = "<group>"; };
 		70B898722781CCBB0033E2B6 /* VIPFood.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = VIPFood.docc; sourceTree = "<group>"; };
@@ -78,6 +82,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70B898FB2781CD960033E2B6 /* VIPFoodApi.framework in Frameworks */,
+				70082E3E2783248B001DD911 /* VIPAuthApi.framework in Frameworks */,
 				B5EAA5E007AC958F8AF7746C /* Pods_VIPFood.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -134,6 +139,7 @@
 		70B898F92781CD960033E2B6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				70082E3D2783248B001DD911 /* VIPAuthApi.framework */,
 				70B898FA2781CD960033E2B6 /* VIPFoodApi.framework */,
 				C71D5BD7CABE31A7B4825F98 /* Pods_VIPFood.framework */,
 			);

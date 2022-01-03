@@ -14,6 +14,7 @@ import VIPFoodApi
 import VIPRideApi
 import AppsRouter
 import Swinject
+import General
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -29,16 +30,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let products: [String: (_ appRouter: IAppRouter) -> IAppProductRouter] = [
             AppProducts.AuthProducts.productName: { AuthRouters(router: $0) },
             AppProducts.RideProducts.productName: { RideRouters(router: $0) },
-            AppProducts.FoodProducts.productName: { FoodRouters(router: $0) }
+            AppProducts.FoodProducts.productName: { FoodRouters(router: $0) },
+            AppProducts.GeneralProducts.productName: { GeneralRouters(router: $0) }
         ]
 
         var assemblies: [Assembly] = []
         assemblies.append(contentsOf: AuthRouters.getAssemblies())
         assemblies.append(contentsOf: RideRouters.getAssemblies())
         assemblies.append(contentsOf: FoodRouters.getAssemblies())
+        assemblies.append(contentsOf: GeneralRouters.getAssemblies())
 
         AppRouter.setAppRouter(products: products, assemblies: assemblies)
-        AppRouter.shared.presentModule(module: RideProducts.RideHomeModule, presentType: .root)
+        AppRouter.shared.presentModule(module: GeneralProducts.MainModule, presentType: .root)
         return true
     }
 }

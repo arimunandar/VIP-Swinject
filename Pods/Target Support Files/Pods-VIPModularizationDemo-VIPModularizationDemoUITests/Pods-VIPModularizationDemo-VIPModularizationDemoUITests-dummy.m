@@ -1,5 +1,0 @@
-#import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_VIPModularizationDemo_VIPModularizationDemoUITests : NSObject
-@end
-@implementation PodsDummy_Pods_VIPModularizationDemo_VIPModularizationDemoUITests
-@end

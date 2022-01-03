@@ -18,7 +18,8 @@ public class RegisterModule: IAppModule {
     }
 
     public func presentView(parameters: IAppParameter?) {
-        let wireframe = appRouter.resolver.resolve(IRegisterWireframe.self, argument: appRouter)!
+        let delegate = appRouter.resolver.resolve(RegisterViewController.self, argument: appRouter)!
+        let wireframe = appRouter.resolver.resolve(IRegisterWireframe.self, arguments: appRouter, delegate as RegisterViewControllerDelegate)!
         wireframe.presentView()
     }
 
