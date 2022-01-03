@@ -1,0 +1,6 @@
+framework module Pods_VIPModularizationDemo {
+  umbrella header "Pods-VIPModularizationDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

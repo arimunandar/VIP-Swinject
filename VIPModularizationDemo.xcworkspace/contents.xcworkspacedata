@@ -2,27 +2,27 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Pods/Pods.xcodeproj">
+      location = "group:VIPModularizationDemo.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Frameworks/VIPAuth/VIPAuth.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Frameworks/VIPAuthApi/VIPAuthApi.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:Frameworks/VIPFood/VIPFood.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:Frameworks/VIPFoodApi/VIPFoodApi.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:VIPModularizationDemo.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Frameworks/VIPRide/VIPRide.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:Frameworks/VIPAuthApi/VIPAuthApi.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Frameworks/VIPFoodApi/VIPFoodApi.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Frameworks/VIPRideApi/VIPRideApi.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>

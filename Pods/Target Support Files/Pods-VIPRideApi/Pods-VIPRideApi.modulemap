@@ -1,0 +1,6 @@
+framework module Pods_VIPRideApi {
+  umbrella header "Pods-VIPRideApi-umbrella.h"
+
+  export *
+  module * { export * }
+}

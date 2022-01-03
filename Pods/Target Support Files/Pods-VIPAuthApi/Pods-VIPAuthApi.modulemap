@@ -1,0 +1,6 @@
+framework module Pods_VIPAuthApi {
+  umbrella header "Pods-VIPAuthApi-umbrella.h"
+
+  export *
+  module * { export * }
+}
